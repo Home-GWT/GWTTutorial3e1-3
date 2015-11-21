@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+  <g:VerticalPanel horizontalAlignment="ALIGN_LEFT">
+
+    <g:HorizontalPanel>
+    	<g:Button ui:field='show'>Показать</g:Button>
+    </g:HorizontalPanel>  
+    <g:HorizontalPanel>
+	    <g:FlexTable ui:field='table' width="250px" height="25px" borderWidth="1" cellPadding="5"/>
+    </g:HorizontalPanel>
+    
+  </g:VerticalPanel>
+</ui:UiBinder> 
